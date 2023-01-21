@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href = "registration.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Header Design -->
+            <div class="header">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="logo.png" alt="Logo" width="20%">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Form Design -->
+            <div class="form">
+                <form action="connect.php" class="form-items" method="POST">
+
+                    <div class="form-head">
+                    <h2>
+                        Student Registration Form
+                    </h2>
+                    <p>Fill out the form carefully for Registration</p>
+                    </div>
+
+                    <hr>
+                    <label for="matric">Matric No. *</label><br>
+                        <input type="text" id="matric" placeholder="e.g 20/2022" name="matric" required><br>
+
+                    <label for="firstname">First Name *</label><br>
+                        <input type="text" id="firstname" placeholder="" name="firstname" required><br>
+
+                    <label for="midname">Middle Name *</label><br>
+                    <input type="text" id="midname" placeholder="" name="midname" required><br>
+                        
+                    <label for="lastname">Last Name *</label><br>
+                    <input type="text" id="lastname" placeholder="" name="lastname" required><br>
+
+                    <label for="sex">
+                        <h3>Gender</h3>
+                    </label>
+
+                    <input type="radio" id="male" name="sex" value="M">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="sex" value="F">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="others" name="sex" value="Others">
+                    <label for="Others">Other(s)</label><br><br>
+
+
+                    <label for="division">Division(s) *</label><br>
+                        <input type="text" id="division" placeholder="" name="division" required><br>
+                        
+                        <label for="degree">Degree(s) *</label><br>
+                        <input type="text" id="degree" placeholder="" name="degree" required><br>
+                    
+                        <label for="skills">Skill(s) *</label><br>
+                        <input type="text" id="skills" placeholder="" name="skills" required><br>
+                        
+                        <label for="certification">Certification(s) *</label><br>
+                        <input type="text" id="certification" placeholder="" name="certification" required><br>
+
+                        <button>
+                            Submit Registration
+                        </button>        
+                </form>
+            </div>
+        </div>
+
+        <div class="back">
+            <p><a href="home.html">Back to home page <i class="fa fa-arrow-left" aria-hidden="true"></i></a></p>
+        </div>
+
+         <!-- Footer Class Design -->
+         <footer class="footer">
+            <div class="footer-grid">
+                <div class="home">
+                    <h3>Home</h3>
+                    <li><a href="#">Fifth Avenue</a></li>
+                    <li><a href="#">About Kedumle's</a></li>
+
+                </div>
+
+                <div class="home">
+                    <h3>services</h3>
+                    <li><a href="#">Custom Jewelry</a></li>
+                    <li><a href="#">Insurance Appraisals</a></li>
+                </div>
+
+                <div class="home">
+                    <h3>Our Work</h3>
+                    <li><a href="#">Browse Style</a></li><br>
+
+                    <h3>Education</h3>
+                    <li><a href="#">How to buy a Diamond</a></li>
+                    <li><a href="#">Pearls</a></li>
+                    <li><a href="#">Gold vs Platnium</a></li>
+                </div>
+            </div>
+
+            <div class="contactor-bottom">
+            <p>Copyright &copy;2022 KEDUMLE</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>|
+                <a href="#">Facebook</a>|
+                <a href="#">Instagram</a>
+            </div>
+            </div>
+        </footer>
+    </body>
+</html>
