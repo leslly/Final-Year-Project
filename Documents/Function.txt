@@ -1,4 +1,11 @@
 Link to slide:
 https://docs.google.com/presentation/d/1rHwQtSkVE94e_nFU77PFATCe3Wrx1Z358HnRwDELYs0/edit?usp=sharing
+
 Link to document:
 https://docs.google.com/document/d/1z6u_h25ifuFro7Z-gbWiKpMuyTsw-48GuTcbs8hpD_w/edit
+
+Link to figma file:
+https://www.figma.com/file/FBr5ymbLQ4TutF3DgrIPc5/project-design?node-id=36%3A35896&t=ryY82SwMKtDVGFN8-0
+
+Link to github repo:
+https://github.com/leslly/Final-Year-Project
